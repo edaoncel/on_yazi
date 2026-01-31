@@ -16,12 +16,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--background-color);
+    background-color: var(--paper-color); /* Gri arka plan yerine ana rengi verdik */
     margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    padding: 0; /* Yanlardaki boşluğu kaldırdık */
+    display: block; /* Flex'i iptal ettik çünkü artık ortalamaya gerek yok */
     min-height: 100vh;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -29,18 +27,18 @@ body {
 
 .cv-wrapper {
     background-color: var(--paper-color);
-    border-radius: 12px;
-    box-shadow: 0 10px 30px var(--shadow-light);
-    max-width: 1000px;
+    border-radius: 0; /* Tam ekran olduğu için köşeleri düz yaptık */
+    box-shadow: none; /* Kenar gölgesini kaldırdık */
+    max-width: 100%; /* 1000px sınırını kaldırdık */
     width: 100%;
-    overflow: hidden;
-    transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+    margin: 0;
+    transition: none; /* Hover efektini tam ekranda kaldırmak daha profesyonel durur */
     box-sizing: border-box;
 }
 
 .cv-wrapper:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+    transform: none; /* Tam ekran modunda zıplama efektini iptal ettik */
+    box-shadow: none;
 }
 
 .cv-header {
@@ -540,4 +538,68 @@ body {
     .social-links a {
         font-size: 1.4em;
     }
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    /* İçeriği tam ortalamak için */
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.active {
+    display: flex !important;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+body.modal-open {
+    overflow: hidden;
+    padding-right: 0px;
+}
+
+.github-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.github-btn:hover {
+    background-color: var(--accent-color-1);
+    text-decoration: none !important;
+}
+
+.modal-content p {
+    font-size: 0.95em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
 }
