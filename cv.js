@@ -21,7 +21,7 @@ async function changeLanguage(lang) {
     document.querySelector('[data-key="p3"]').innerHTML = content.p3;
     document.querySelector('[data-key="p4"]').innerHTML = content.p4;
     document.querySelector('[data-key="sig"]').innerText = content.sig;
-    document.querySelector('[data-key="view-cv-btn"]').innerHTML = `<i class="fas fa-external-link-alt"></i> ${content['view-cv-btn']}`;
+    document.querySelector('[data-key="view-cv-btn"]').innerHTML = `${content['view-cv-btn']}`;
     
     // Alt kısımlar
     document.querySelector('.lang-download-btn').innerHTML = `<i class="fas fa-file-pdf"></i> ${content.down_btn || 'PDF'}`;
