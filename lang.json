@@ -1,24 +1,24 @@
 {
   "tr": {
-    "cv-title": "Yönetim Bilişim Sistemleri",
-    "qr_text": "Bağlantı kurmak için okutun",
-    "p1": "Yönetim Bilişim Sistemleri mezunu olarak; işletme yönetimi ile bilgi teknolojileri arasındaki stratejik dengenin farkında, çözüm odaklı bir vizyona sahibim. Eğitimim boyunca verinin iş süreçlerine entegrasyonu ve teknolojik altyapının verimlilik üzerindeki etkisi üzerine yoğunlaştım.",
-    "p2": "Yazılım dünyasına olan ilgim, karmaşık problemleri analiz etme ve optimize edilmiş dijital çözümler üretme tutkumun bir sonucudur. Kendi kendimi motive etme kapasitem ve araştırmacı kişiliğim sayesinde yeni teknolojilere hızla uyum sağlıyor, güncel trendleri yakından takip ediyorum.",
-    "p3": "Disiplinli çalışmanın ve sürekli öğrenmenin başarıya giden anahtar olduğunu biliyorum. Analitik bakış açımla şirketinizin vizyonuna değer katmaya, pozisyonun gerektirdiği sorumlulukları heyecanla üstlenmeye hazırım.",
-    "p4": "Özverili çalışma disiplinimle ekibinize somut katkılar sağlamak istiyorum. Vakit ayırdığınız için teşekkür eder; potansiyelimi aktarabilmek adına olumlu dönüşlerinizi beklerim.",
-    "sig": "Saygılarımla,",
-    "down_btn": "İndir",
-    "view-cv-btn": "CV'nin Tamamını Görüntüle"
+    "job_title": "Full Stack Web Geliştirici",
+    "p1": "Yönetim Bilişim Sistemleri mezunu olarak; işletme süreçlerinin dijital dönüşümü konusunda güçlü bir altyapıya sahibim. Eğitimim boyunca, teknolojik altyapının kurumsal verimlilik üzerindeki kritik rolüne ve verinin iş zekası süreçlerine entegrasyonuna odaklandım. Hem yönetimsel perspektifi hem de yazılım dünyasının teknik dilini konuşabilen, köprü kurucu bir vizyona sahibim.",
+    "p2": "Yazılım geliştirme sürecine olan tutkum, karmaşık problemleri zarif ve ölçeklenebilir kod bloklarıyla çözme arzumdan kaynaklanıyor. Full-stack bakış açısıyla; sadece kullanıcıya görünen arayüzü değil, arka planda dönen mantığı ve veritabanı mimarisini de bütüncül bir yaklaşımla ele alıyorum. Yeni teknolojileri öğrenme ve projelerime entegre etme noktasında oldukça yüksek bir motivasyona sahibim.",
+    "p3": "Projelerimde temiz kod (clean code) prensiplerini esas alıyor; kullanıcı deneyimini (UX) ön planda tutan, erişilebilir ve mobil uyumlu arayüzler geliştiriyorum. Teknik bir zorlukla karşılaştığımda pes etmek yerine, araştırmacı kişiliğimle güncel dokümantasyonları inceleyerek en verimli çözüm yolunu bulmayı ilke ediniyorum.",
+    "p4": "Disiplinli çalışmanın, planlı bir proje yönetiminin ve sürekli öğrenmenin başarının anahtarı olduğuna inanıyorum. Analitik düşünme becerim ve çözüm odaklı yaklaşımımla, içinde bulunduğum ekibe kısa sürede uyum sağlayarak somut katkılar sunmaya, sorumluluk alarak şirketinizin dijital vizyonuna değer katmaya hazırım.",
+    "p5": "Özverili çalışma disiplinimle organizasyonunuzun hedeflerine ulaşmasında aktif rol oynamayı hedefliyorum. Vakit ayırdığınız için teşekkür eder, potansiyelimi ve projelerimdeki teknik detayları daha yakından aktarabilmek adına olumlu dönüşlerinizi beklerim.",
+    "sig": "Saygılarımla,<br>Eda Öncel",
+    "view-cv-btn": "CV'min tamamını görün.",
+    "qr_text": "Bağlantı kurmak için okutun."
   },
-"en": {
-    "cv-title": "Management Information Systems",
-    "qr_text": "Scan to connect",
-    "p1": "As an MIS graduate, I have a solution-oriented vision focused on the strategic balance between business management and IT. During my studies, I specialized in data integration and enhancing operational efficiency through technology.",
-    "p2": "My interest in software development stems from my passion for analyzing complex problems and creating optimized digital solutions. With strong self-motivation and a research-driven mindset, I quickly adapt to new technologies and follow industry trends.",
-    "p3": "I believe disciplined work and continuous learning are the keys to success. I am ready to contribute to your company's goals with my analytical perspective and eager to take on the responsibilities of this role.",
-    "p4": "I aim to provide tangible contributions to your team through my dedicated work ethic. Thank you for your time and consideration; I look forward to the opportunity to discuss my potential with you.",
-    "sig": "Regards,",
-    "down_btn": "Download",
-    "view-cv-btn": "View Full CV"
-}
+  "en": {
+    "job_title": "Full Stack Web Developer",
+    "p1": "As a Management Information Systems graduate, I have a strong foundation in the digital transformation of business processes. Throughout my education, I focused on the critical role of technological infrastructure in corporate efficiency and the integration of data into business intelligence processes. I possess a bridge-building vision that can speak both the management perspective and the technical language of the software world.",
+    "p2": "My passion for software development stems from my desire to solve complex problems with elegant and scalable code blocks. With a full-stack perspective, I approach not only the user interface but also the backend logic and database architecture holistically. I have a high motivation to learn new technologies and integrate them into my projects.",
+    "p3": "In my projects, I adhere to clean code principles, developing accessible and mobile-responsive interfaces that prioritize user experience (UX). When I encounter a technical challenge, I do not give up; I make it a principle to find the most efficient solution path by examining current documentation with my investigative personality.",
+    "p4": "I believe that disciplined work, planned project management, and continuous learning are the keys to success. With my analytical thinking skills and solution-oriented approach, I am ready to adapt to your team quickly, make tangible contributions, and add value to your company's digital vision by taking on responsibilities.",
+    "p5": "With my dedicated work discipline, I aim to play an active role in achieving your organization's goals. Thank you for your time, and I look forward to your positive response to showcase my potential and technical details in my projects.",
+    "sig": "Sincerely,<br>Eda Öncel",
+    "view-cv-btn": "View my full CV.",
+    "qr_text": "Scan to connect."
+  }
 }

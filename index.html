@@ -3,96 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eda Öncel - Ön Yazı</title>
+    <title>Eda Öncel - CV</title>
     <link rel="stylesheet" href="cv.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="img/1.png" rel="icon" type="image/x-icon">
 </head>
 <body>
-    <div class="cv-wrapper">
-        <div class="language-wrapper">
-            <button id="btn-en" onclick="changeLanguage('en')" class="lang-switch-btn">
-                <i class="fas fa-globe"></i> English
-            </button>
-            <button id="btn-tr" onclick="changeLanguage('tr')" class="lang-switch-btn" style="display: none;">
-                <i class="fas fa-globe"></i> Türkçe
-            </button>
+
+<div class="cv-wrapper">
+    <header class="cv-header">
+        <h1 class="cv-name">EDA ÖNCEL</h1>
+        <h3 id="job_title" class="cv-title">Full Stack Web Developer</h3>
+    </header>
+
+        <div class="content-container">
+            <div class="main-content">
+                <section>
+                    <p id="about_text" data-key="p1">Yönetim Bilişim Sistemleri mezunu olarak; işletme süreçlerinin dijital dönüşümü konusunda güçlü bir altyapıya sahibim. Eğitimim boyunca, teknolojik altyapının kurumsal verimlilik üzerindeki kritik rolüne ve verinin iş zekası süreçlerine entegrasyonuna odaklandım. Hem yönetimsel perspektifi hem de yazılım dünyasının teknik dilini konuşabilen, köprü kurucu bir vizyona sahibim.</p>
+                    
+                    <p id="about_text" data-key="p2">Yazılım geliştirme sürecine olan tutkum, karmaşık problemleri zarif ve ölçeklenebilir kod bloklarıyla çözme arzumdan kaynaklanıyor. Full-stack bakış açısıyla; sadece kullanıcıya görünen arayüzü değil, arka planda dönen mantığı ve veritabanı mimarisini de bütüncül bir yaklaşımla ele alıyorum. Yeni teknolojileri öğrenme ve projelerime entegre etme noktasında oldukça yüksek bir motivasyona sahibim.</p>
+                    
+                    <p id="about_text"  data-key="p3">Projelerimde temiz kod (clean code) prensiplerini esas alıyor; kullanıcı deneyimini (UX) ön planda tutan, erişilebilir ve mobil uyumlu arayüzler geliştiriyorum. Teknik bir zorlukla karşılaştığımda pes etmek yerine, araştırmacı kişiliğimle güncel dokümantasyonları inceleyerek en verimli çözüm yolunu bulmayı ilke ediniyorum.</p>
+                
+                    <p id="about_text" data-key="p4">Disiplinli çalışmanın, planlı bir proje yönetiminin ve sürekli öğrenmenin başarının anahtarı olduğuna inanıyorum. Analitik düşünme becerim ve çözüm odaklı yaklaşımımla, içinde bulunduğum ekibe kısa sürede uyum sağlayarak somut katkılar sunmaya, sorumluluk alarak şirketinizin dijital vizyonuna değer katmaya hazırım.</p>
+                    
+                    <p id="about_text" data-key="p5">Özverili çalışma disiplinimle organizasyonunuzun hedeflerine ulaşmasında aktif rol oynamayı hedefliyorum. Vakit ayırdığınız için teşekkür eder, potansiyelimi ve projelerimdeki teknik detayları daha yakından aktarabilmek adına olumlu dönüşlerinizi beklerim.</p>
+                    
+                    <p id="about_text" data-key="sig">Saygılarımla,<br>Eda Öncel</p>
+                </section>
         </div>
 
-        <div class="theme-wrapper">
-    <button onclick="toggleDarkMode()" class="theme-btn">
-        <i id="theme-icon" class="fas fa-moon"></i>
-    </button>
-</div>
-
-        <header class="cv-header">
-            <h1 class="cv-name">EDA ÖNCEL</h1>
-            <h3 data-key="cv-title" class="cv-title">Yönetim Bilişim Sistemleri</h3>
-        </header>
-
-        <div class="cv-main-content">
-            <div class="cv-mobile-photo-section">
-                <img src="img/1.png" class="profile-photo-mobile" alt="eda oncel">
+        <div class="side-content">
+            <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 30px;">
+                <img src="img/1.png" alt="Eda Öncel" style="width: 130px; height: 130px; border-radius: 50%; margin-bottom: 10px; object-fit: cover;">
+                <p>+90 543 271 88 69<br>edaoncel15@gmail.com
             </div>
-
-            <main class="cv-content">
-                            <section class="content-section">
-                <div class="cover-letter-extended">
-                    <p data-key="p1">
-                        Yönetim Bilişim Sistemleri mezunu olarak; işletme yönetimi ve teknoloji arasındaki stratejik dengeyi kurabilen, çözüm odaklı bir vizyona sahibim. Eğitimim boyunca verinin iş süreçlerine entegrasyonu ve teknolojik altyapının verimlilik üzerindeki etkisi üzerine yoğunlaştım.
-                    </p>
-
-                    <p data-key="p2">
-                        Yazılım dünyasına olan ilgim, karmaşık problemleri analiz ederek optimize dijital çözümler üretme tutkumun bir sonucudur. Araştırmacı kişiliğim ve yüksek motivasyonum sayesinde yeni teknolojilere hızla uyum sağlıyor, güncel trendleri yakından takip ediyorum.
-                    </p>
-
-                    <p data-key="p3">
-                        Disiplinli çalışmanın ve sürekli öğrenmenin başarıya giden anahtar olduğuna inanıyorum. Analitik bakış açımla şirketinizin hedeflerine değer katmaya ve pozisyonun getirdiği sorumlulukları üstlenmeye hazırım.
-                    </p>
-
-                    <p data-key="p4">
-                        Özverili çalışma disiplinimle ekibinize somut katkılar sağlamak istiyorum. Vakit ayırdığınız için teşekkür eder, potansiyelimi aktarabilmek adına olumlu dönüşlerinizi beklerim.
-                    </p>
-                    <p class="signature"><span data-key="sig">Saygılarımla,</span><br><strong>Eda Öncel</strong></p>
+           <section class="accounts">
+                <div class="single-qr-container">
+                    <img src="img/qr-code.png" alt="Eda Öncel Dijital Kartvizit">
+                    <p class="qr-hint" data-key="qr_text">Bağlantı kurmak için okutun.</p>
                 </div>
-                <div class="external-link-container">
-    </a>
-</div>
             </section>
-
-                <!-- <div class="html2pdf__page-break"></div> pdf indirdiğimizde sayfanın nereden bölünüp diğer sayfaya geçeceğini ayrlıyoruz. -->
-            </main>
-
-            <aside class="cv-sidebar">
-                <img src="img/1.png" class="profile-photo-desktop" alt="profile photo">
-        
-
-                        <section class="accounts">
-                            <div class="single-qr-container">
-                                <img src="img/qr-code.png" alt="Eda Öncel Dijital Kartvizit">
-                                <p class="qr-hint">Bağlantı kurmak için okutun.</p>
-                            </div>
-                        </section>
-                        
-                        <section class="accounts">
-                            <div class="single-qr-container">
-                                <img src="img/cv&onyazi.png" alt="Eda Öncel">
-                                <p class="qr-hint" data-key="view-cv-btn">CV'min tamamını görün.</p> 
-                            </div>
-                        </section>
-
-                <div class="download-section" style="text-align: center; margin-top: 20px;">
-                    <button onclick="downloadCV()" class="lang-download-btn">
-                        <i class="fas fa-file-pdf"></i> PDF İndir</span>
-                    </button>
+            
+            <section class="accounts">
+                <div class="single-qr-container">
+                    <img src="img/cv&onyazi.png" alt="Eda Öncel">
+                    <p class="qr-hint" data-key="view-cv-btn">CV'min tamamını görün.</p> 
                 </div>
-            </aside>
+            </section>
         </div>
     </div>
-    <div class="html2pdf__page-break"></div> <!-- pdf indirdiğimizde sayfanın nereden bölünüp diğer sayfaya geçeceğini ayrlıyoruz. -->
+</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-    <script src="cv.js"></script>
+<div class="controls">
+    <button id="en-btn" onclick="changeLanguage('en')" class="action-btn">EN</button>
+    <button id="tr-btn" onclick="changeLanguage('tr')" class="action-btn" style="display: none;">TR</button>
+    <button onclick="downloadCV()" class="pdf-btn"><i class="fas fa-file-pdf"></i></button>
+</div>
+
+<script src="cv.js"></script>
 </body>
 </html>
